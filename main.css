@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #FFFFFF;
 }
 ul {
     font-family: 'Noto Sans', sans-serif;
@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0B9E8f;
+    background-color: #0B9E8F;
 }
   
 li {
@@ -22,7 +22,6 @@ li a {
     text-decoration: none;
 }
   
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #097C6D;
 }
