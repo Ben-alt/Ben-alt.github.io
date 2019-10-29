@@ -37,13 +37,19 @@ li a:hover {
 }
 
 .text {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-    height: 0;
+    transition: all 1s ease-in-out;
+    transform: translateY(-200%);
+    position: absolute;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    text-align: center;
 }
 
 .text.shown {
-    visibility: visible;
-    opacity: 1;
+    transition: all 1s ease-in-out;
+    transform: translateY(0%);
 }
