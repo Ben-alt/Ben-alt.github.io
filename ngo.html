@@ -2,12 +2,13 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="reset.css" rel="stylesheet" type="text/css" media="screen"/>
         <link href="main.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="ngo.css" rel="stylesheet" type="text/css" media="screen"/>
         <script src="main.js"></script>
     </head>
     <body>
-        <a id="backtotop"></a>
         <div id="top">
             <nav>
                 <ul class="header">
@@ -21,14 +22,87 @@
             </nav>
         </div>
         <div id="text">
-            <h1 class="title">Internet Privacy</h1>
-            <p class="caption">The right to have ones data be confidential.</p>
-            <div class="description">
-                    <img src="https://cdn.pixabay.com/photo/2016/12/21/17/39/cyber-security-1923446_960_720.png">
-                <p>“Arguing that you don’t care about the right to privacy because you have nothing to hide,
-                is no different than saying you don’t care about free speech because you have nothing to say.” - Edward Snowden</p>
+            <div class="title">
+                <img src="resources/EFFlogo.jpg">
+            </div>
+            <p id="caption">The Electronic Frontier Foundation was created in 1990 as a non-governmental organization to promote internet rights</p>
+            <div id="box1">
+                <h2>What have they done?</h2>
+            </div>    
+                <div class="des">
+                    <h3>DES cracker</h3>
+                    <p>In 1990s EFF was worried that the US government was refusing to switch encryption methods.
+                        The current method at the time, <a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard">Data Encryption Standard</a>, was already shown to be possible to crack.
+                        Thie caused the EFF to create a special machine designed to break DES, nicknamed Deep Crack.
+                        The EFF succesfully lowered the time for cracking a DES message from 56 hours to under 24 hours.
+                        In the next 4 years, as a result of the EFF's actions, DES had been replaced by <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">Advanced Encryption Standard</a>.
+                    </p>
+                    <img src="resources/800px-Board300.jpg" width="27%">
+                    <p id="cap"><i>The EFF's DES cracking machine.</i>   </p>
+                </div>
+                <div class="extension">
+                    <h3 class="title">Software</h3>
+                    <p>The EFF has made lots of software to protect privacy.</p>
+                    <div class="extensions">
+                        <img src="resources/1200px-PrivacyBadgerLogo.svg.png" width="50px">
+                        <h4>Privacy Badger</h4>
+                        <p>Blocks invisble trackers.</p>
+                            <a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp">Chrome</a>
+                            <a href="https://addons.mozilla.org/en-CA/firefox/addon/privacy-badger17/">Firefox</a>
+                            <a href="https://addons.opera.com/en/extensions/details/privacy-badger/">Opera</a>
+                    </div>
+                    <div class="extensions">
+                        <img src="resources/HTTPS_Everywhere_icon.svg.png" width="50px">
+                        <h4>HTTPS Everywhere</h4>
+                        <p>Makes websites visted use HTTPS instead of HTTP.</p>
+                            <a href="https://chrome.google.com/webstore/detail/
+                            https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp">Chrome</a>
+                            <a href="https://addons.mozilla.org/enhttps://addons.mozilla.org/en-CA/firefox/addon/https-everywhere/-CA/firefox/addon/privacy-badger17/">Firefox</a>
+                            <a href="https://addons.opera.com/en/extensions/details/https-everywhere/">Opera</a>
+                    </div>
+                    <div class="extensions">
+                        <img src="resources/starttls-everywhere-atkanga-300x241.png" width="50px">  
+                        <h4>STARTTLS Everywhere</h4>
+                        <p>Checks to see if your email server is secure.</p>
+                            <a href="https://starttls-everywhere.org/">Link</a>
+                    </div>
+                    <div class="extensions">
+                        <img src="resources/Certbot-solid.svg" width="50px">  
+                        <h4>Certbot</h4>
+                        <p>Allows people to automatically enable HTTPS on their site.</p>
+                            <a href="https://certbot.eff.org/">Link</a>
+                    </div>
+                    <div class="extensions">
+                        <img src="resources/title.png" width="100px">  
+                        <h4>Panopticlick</h4>
+                        <p>Tests if your browser configeration is trackable.</p>
+                            <a href="https://panopticlick.eff.org/">Link</a>
+                    </div>
+
+                </div>
+                <div class="legal">
+                    <h3>Legal cases</h3>
+                    <p>The EFF has taken legal cases in order to make sure that the publics
+                        internet freedoms are kept. The EFF will defend or bring lawsuits even 
+                        standing against America's government or large companies. The first big
+                        case that the EFF took was Steve Jackson Games, Inc. v. United States Secret Service. This case occured when
+                        SJG was raided as an investigation of piracy. The secret service took many of the companies
+                        floopy disk which contained their upcoming game GURPS Cyberpunk. This promply caused a lawsuit by SJG add
+                        was the reason that the EFF was created. The EFF has then taken many
+                        different court cases, many of which can be found <a href="https://www.eff.org/cases">here</a>.</p>
+                    <img src="resources/220px-Steve_Jackson_Games_logo.png" width="40%">
+                    </p>
+                </div>
+                <div class="awareness">
+                    <h3>Spreading awareness</h3>
+                    <p>The EFF runs a regularly updated <a href="https://www.eff.org/">blog</a> about updates in 
+                    the privacy community. They often tell the their readers about current and future events that they should
+                    be looking out for. In addition to this, they have many recomendations on what software to use 
+                    in order to maintain privacy.
+                    
+                    </p>
+                </div>
             </div>
         </div>
-        <a id="jump" href="#top">Back to top</a>
     </body>
 </html>
