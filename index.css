@@ -15,12 +15,6 @@
     grid-row: 3;
 }
 
-.description, .description2, .description3 {
-    background-color: #EEEEEE;
-    padding: 10px;
-    border-radius: 15px;
-}
-
 .description img {
     float: right;
     width: 32.5%;

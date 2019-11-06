@@ -1,0 +1,45 @@
+.title {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+.dap {
+    grid-column: 1 / -1;
+}
+
+.country h3 {
+    color: #000000;
+    margin-top: 0em;
+}
+
+.country {
+    background-color: #DDDDDD;
+    padding: 1em;
+    border-radius: 15px;
+    margin-bottom: 0.25em;
+    grid-column: 1 / -1
+}
+
+.country img{
+    float: right;
+    width: 200px;
+    padding-left: 1em;
+}
+
+ol {
+    list-style-type: lower-roman;
+    margin-left: 3em;
+}
+
+.sub {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.count {
+    list-style-type: circle;
+}
+
+.dab {
+    grid-column: 1 / -1;
+}

@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans', serif;
 }
 
+h1, h2, h3, h5, h6 {
+    color: #CA0D0D;
+}
+
 h1{
     font-size: 65px;
 }
@@ -29,9 +33,8 @@ h4{
     font-size: 25px;
 }
 
-
-p {
-    line-height: 1.5em;
+p, ol {
+    line-height: 1.5em; 
 }
 
 ul {
@@ -42,11 +45,11 @@ ul {
     background-color: #EC1E1E;
 }
   
-li {
+.header li {
     float: right;
 }
   
-li a {
+.header li a {
     display: block;
     color: white;
     text-align: center;
@@ -60,7 +63,7 @@ li a {
     transition: box-shadow, 1s, background-color, 0.5s;
 }
   
-li a:hover {
+.header li a:hover {
     background-color: #CA0D0D;
 }
 
@@ -79,5 +82,8 @@ li a:hover {
     grid-gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;   
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
