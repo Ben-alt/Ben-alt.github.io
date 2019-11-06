@@ -26,6 +26,12 @@
     padding-left: 1em;
 }
 
+.country iframe{
+    float: right;
+    width: 400px;
+    padding-left: 1em;
+}
+
 ol {
     list-style-type: lower-roman;
     margin-left: 3em;

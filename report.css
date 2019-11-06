@@ -1,0 +1,14 @@
+.bext {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+img {
+    float: right;
+    margin-left: 1em;
+}

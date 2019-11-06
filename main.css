@@ -5,6 +5,7 @@ html {
 body {
     background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,6 +85,6 @@ ul {
     grid-auto-rows: auto;   
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
