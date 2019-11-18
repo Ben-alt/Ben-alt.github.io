@@ -9,7 +9,7 @@ body {
     background-color: #000000;
     background-attachment:fixed;
 	background-position:center bottom;
-	zoom: 2;
+	zoom: 1.7;
 }
 
 @keyframes slideInFromLeft {
@@ -19,6 +19,14 @@ body {
     100% {
       transform: translateY(0%);
     }
+}
+
+.news {
+	background-color: white;
+}
+
+h1 {
+font-size: 20px
 }
 
 .paper{
