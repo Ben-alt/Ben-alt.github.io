@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    font-family: "Open Sans", serif;
+    animation: a 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes a {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        [full-start] minmax(1em, 1fr)
+        [main-start] minmax(0, 45em) [main-end]
+        minmax(1em, 1fr) [full-end];
+    background: white;
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+.full {
+    grid-column: full;
+}
+
+figure {
+    background: rgb(10, 83, 80);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figcaption {
+    padding: .8em;
+}
+
+img {
+    width: 30em;
+    vertical-align: top;
+    -o-box-shadow:      0 0 15px 5px rgba(0,0,0,0.75);
+    -khtml-box-shadow:  0 0 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow:    0 0 15px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.75);
+    clip-path: inset(0px -15px 0px -15px);
+}
+
+p {
+    line-height: 1.55;
+    margin: 0 0 1.4em;
+}
+
+* + p {
+    margin-top: 1.4em;
+}
+
+p + p {
+    margin-top: 0em;
+}
+
+h1 {
+    font-size: 4.5em;
+    line-height: 0.95;
+    text-align: center;
+}
+
+a {
+    font-size: 0.75em;
+}
+
+@media (min-width: 900px) {
+    body {
+        font-size: 115%;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        font-size: 130%;
+    }
+}
+
+#disclamer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    font-style: italic;
+}
